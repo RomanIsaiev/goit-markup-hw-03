@@ -1,0 +1,255 @@
+/*
+ цвет logo WEB  color: #4D5AE5;
+ цвет logo STUDIO color: #2E2F42;
+ цвет header nav color: #2E2F42; 
+ цвет headrer adress color: #434455;
+ цвет h1 hero color: #FFFFFF;
+ 
+
+ цвет background button hero background: #4D5AE5;
+ цвет текста в кнопке hero button color: #FFFFFF;
+ 
+ цвет section2 h2 color: #2E2F42;
+ цвет section2 p color:  #434455;
+ 
+ цвет всех заголовков h2 color: #2E2F42;
+
+ цвет заголовка h3 section4 color: #2E2F42;
+
+ цвет текста footer p color: #F4F4FD;
+
+
+ ЦВЕТ ВСЕХ ЗАГОЛОВКОВ   #2E2F42;
+ ЦВЕТ P                 #434455;
+ ЦВЕТ LOGO WEB SUTDIO    #4D5AE5 + #2E2F42;
+ ЦВЕТ H1                 #FFFFFF;
+ ЦВЕТ КНОПКИ HERO BUTTON #FFFFFF;
+ ЦВЕТ FOOTER>P           #F4F4FD;
+
+
+
+ main background background: #E5E5E5;
+ backgrond SECTION4 background: #F4F4FD;
+ --------------------------------------------
+
+ основной шрифт Roboto
+ лого шрифт Raleway
+ */
+
+:root {
+  --title-text-color: #2e2f42;
+  --paragraph-text-color: #434455;
+
+  --logo-first-word-color: #4d5ae5;
+  --logo-second-word-color: #2e2f42;
+
+  --hero-word-main-h-color: #ffffff;
+  --hero-button-text-color: #ffffff;
+  --hero-button-background-color: #4d5ae5;
+
+  --footer-paragraph-text-color: #f4f4fd;
+
+  --main-background-color: #ffffff;
+  --light-mode-background-color: #f4f4fd;
+  --hero-background-color: #2e2f42;
+
+  --filter-button-color: #4d5ae5;
+  --filter-button-background-color: #f4f4fd;
+
+  --active-button-background-color: #404bbf;
+
+  --acctent-hover-color: #404bbf;
+}
+
+body {
+  color: var(--paragraph-text-color);
+  background-color: var(--main-background-color);
+
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+/* Logo */
+.logo-studio {
+  color: var(--logo-first-word-color);
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  text-transform: uppercase;
+}
+.logo-studio .logo-web {
+  color: var(--logo-second-word-color);
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Nav */
+
+.link {
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--acctent-hover-color);
+}
+
+/* Address */
+.address {
+  color: var(--paragraph-text-color);
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+  font-style: normal;
+}
+
+.address:hover,
+.address:focus {
+  color: var(--acctent-hover-color);
+}
+
+/* hero */
+.hero {
+  background-color: var(--hero-background-color);
+
+  letter-spacing: 0.02em;
+}
+.hero-main-h {
+  color: var(--hero-word-main-h-color);
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+
+  text-align: center;
+}
+.hero-button {
+  color: var(--hero-button-text-color);
+  background-color: var(--hero-button-background-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero button:hover,
+.hero button:focus {
+  background-color: var(--active-button-background-color);
+}
+
+/* section titles */
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+
+  text-transform: capitalize;
+  text-align: center;
+}
+/* title h2 */
+.section-hh {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.section-title-hhh {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-p {
+  color: var(--paragraph-text-color);
+
+  line-height: 1.5;
+}
+
+/* background section 3 */
+.our-team {
+  background-color: var(--light-mode-background-color);
+}
+
+/* background section 4 */
+.team {
+  background-color: var(--main-background-color);
+}
+/* footer */
+.footer {
+  background-color: var(--hero-background-color);
+}
+.footer p {
+  color: var(--footer-paragraph-text-color);
+
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.logo-studio-footer {
+  color: var(--logo-first-word-color);
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logo-web {
+  color: var(--footer-paragraph-text-color);
+}
+
+/* portfolio.html */
+/* buttons */
+.buttons button {
+  color: var(--filter-button-color);
+  background-color: var(--filter-button-background-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+}
+
+.buttons button:hover,
+.buttons button:focus {
+  color: var(--hero-button-text-color);
+  background-color: var(--active-button-background-color);
+}
