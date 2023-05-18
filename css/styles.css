@@ -353,9 +353,6 @@ body {
 }
 /* our team section 4 */
 
-.our-team {
-}
-
 .our-team .container {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -414,9 +411,6 @@ body {
   padding-bottom: 100px;
 }
 
-.footer-logo {
-}
-
 .footer-text {
   color: var(--footer-paragraph-text-color);
   width: 264px;
@@ -450,9 +444,6 @@ body {
 .partfolio .container {
   padding-top: 96px;
   padding-bottom: 120px;
-}
-
-.section .filter {
 }
 
 .filter .buttons {
