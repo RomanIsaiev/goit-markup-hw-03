@@ -136,8 +136,6 @@ body {
 }
 
 .navigation .list-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
   margin-right: 40px;
 }
 
@@ -146,9 +144,11 @@ body {
 }
 
 .navigation .link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
   list-style: none;
   text-decoration: none;
-  padding: 0;
 }
 
 .nav-link {
