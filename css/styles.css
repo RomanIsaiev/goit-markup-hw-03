@@ -136,9 +136,9 @@ body {
 }
 
 .navigation .list-item {
-  margin-right: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-right: 40px;
 }
 
 .navigation .list-item:last-child {
@@ -448,7 +448,7 @@ body {
 /* portfolio.html */
 /* buttons */
 
-.portfolio .container {
+.portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -499,8 +499,8 @@ body {
   padding-right: 16px;
   padding-top: 32px;
   padding-bottom: 32px;
-  border-top: none;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .gallery {
