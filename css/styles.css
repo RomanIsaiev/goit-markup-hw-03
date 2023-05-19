@@ -85,11 +85,11 @@ body {
 }
 
 .container {
-  width: 1440px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header .container {
@@ -210,10 +210,10 @@ body {
   padding-bottom: 188px;
   letter-spacing: 0.02em;
   text-align: center;
+  background-color: var(--hero-background-color);
 }
 
 .hero .container {
-  background-color: var(--hero-background-color);
 }
 
 .hero-main-h {
@@ -528,13 +528,11 @@ body {
 }
 
 .gallery .section-hh {
-  text-align: center;
   margin-top: 0;
   margin-bottom: 8px;
 }
 
 .gallery .section-p {
-  text-align: center;
   margin: 0;
 }
 
